@@ -1,0 +1,32 @@
+@import '../theme/variables.css';
+@import 'themes/_light.scss';
+@import 'themes/_dark.scss';
+
+@use 'abstract';
+@use 'base';
+@use 'vendor';
+@use 'components';
+@use 'layouts';
+@use 'pages';
+@use 'themes';
+
+html.light {
+  @include light-theme();
+}
+
+html.dark {
+  @include dark-theme();
+}
+
+// Exemple JavaScript for switchTheme():
+//
+// function switchTheme() {
+//   const htmlElement = document.documentElement;
+//   if (htmlElement.classList.contains('light')) {
+//     htmlElement.classList.remove('light');
+//     htmlElement.classList.add('dark');
+//   } else {
+//     htmlElement.classList.remove('dark');
+//     htmlElement.classList.add('light');
+//   }
+// }

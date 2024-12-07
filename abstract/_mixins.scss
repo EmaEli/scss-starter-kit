@@ -1,0 +1,72 @@
+@use 'breakpoints' as *;
+
+// Mixin to define a media query for a specific breakpoint
+@mixin media-query($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// Mixin for X-Small devices
+@mixin for-phone {
+  @include media-query($bp-xs) {
+    @content;
+  }
+}
+
+// Mixin for Small devices
+@mixin for-smartphone {
+  @include media-query($bp-sm) {
+    @content;
+  }
+}
+
+// Mixin for Medium devices
+@mixin for-tablet {
+  @include media-query($bp-md) {
+    @content;
+  }
+}
+
+// Mixin for Large devices
+@mixin for-desktop {
+  @include media-query($breakpoint-large) {
+    @content;
+  }
+}
+
+// Mixin for Extra Large devices
+@mixin for-large-desktop {
+  @include media-query($bp-xl) {
+    @content;
+  }
+}
+
+// Mixin for Extra Extra Large devices
+@mixin for-extra-large-desktop {
+  @include media-query($bp-xxl) {
+    @content;
+  }
+}
+
+// Mixin for the light theme
+@mixin light-theme() {
+  --background-color: #ffffff; /* White */
+  --text-color: #212b31; /* Gray 700 */
+  --primary-color: rgb(241, 112, 35); /* Primary color 500 */
+  --secondary-color: rgb(198, 206, 210); /* Gray 300 */
+  --border-color: rgb(232, 235, 237); /* Gray 200 */
+  --link-color: rgb(0, 116, 232); /* Blue */
+  --scrollbar-thumb-color: rgba(241, 112, 35, 0.8);
+}
+
+// Mixin for the dark theme
+@mixin dark-theme() {
+  --background-color: #212b31; /* Gray 700 */
+  --text-color: #f4f5f6; /* Gray 100 */
+  --primary-color: rgb(173, 56, 17); /* Primary color 700 */
+  --secondary-color: rgb(90, 105, 114); /* Gray 500 */
+  --border-color: rgb(54, 63, 69); /* Gray 600 */
+  --link-color: rgb(77, 161, 255); /* Light Blue */
+  --scrollbar-thumb-color: rgba(173, 56, 17, 0.8);
+}

@@ -1,0 +1,27 @@
+// Dark theme variables
+:root {
+  --background-color: #212b31; /* Gray 700 */
+  --text-color: #f4f5f6; /* Gray 100 */
+  --primary-color: rgb(173, 56, 17); /* Primary color 700 */
+  --secondary-color: rgb(90, 105, 114); /* Gray 500 */
+  --border-color: rgb(54, 63, 69); /* Gray 600 */
+  --link-color: rgb(77, 161, 255); /* Light Blue */
+}
+
+// Scrollbar customization
+body {
+  --scrollbar-thumb-color: rgba(173, 56, 17, 0.8);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+}

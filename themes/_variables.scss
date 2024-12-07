@@ -1,0 +1,118 @@
+:root {
+  /* PRIMARY */
+  --primary-color-50: 253, 236, 226; /* #fdece2 */
+  --primary-color-100: 254, 237, 210; /* #feedd2 */
+  --primary-color-200: 253, 215, 166; /* #fdd7a6 */
+  --primary-color-300: 250, 185, 122; /* #fab97a */
+  --primary-color-400: 251, 141, 75; /* #fb8d4b */
+  --primary-color-500: 241, 112, 35; /* #f17023 */
+  --primary-color-600: 207, 82, 25; /* #cf5219 */
+  --primary-color-700: 173, 56, 17; /* #ad3811 */
+
+  /* GRAY */
+  --gray-color-50: 255, 255, 255; /* #ffffff */
+  --gray-color-100: 244, 245, 246; /* #f4f5f6 */
+  --gray-color-200: 232, 235, 237; /* #e8ebed */
+  --gray-color-300: 198, 206, 210; /* #c6ced2 */
+  --gray-color-400: 152, 166, 174; /* #98a6ae */
+  --gray-color-500: 90, 105, 114; /* #5a6972 */
+  --gray-color-550: 78, 84, 87; /* #4e5457 */
+  --gray-color-600: 54, 63, 69; /* #363f45 */
+  --gray-color-700: 33, 43, 49; /* #212b31 */
+  --gray-color-800: 23, 33, 38; /* #172126 */
+  --gray-color-900: 23, 23, 23; /* #171717 */
+
+  /* UTILITY */
+  --error-color-500: 241, 34, 62; /* #f1223e */
+  --warning-color-500: 241, 213, 34; /* #f1d522 */
+  --success-color-500: 34, 241, 110; /* #22f16e */
+  --info-color-500: 34, 165, 241; /* #22a5f1 */
+}
+
+html.blue {
+  --primary-color-50: 18, 231, 252;
+  --primary-color-100: 179, 211, 255;
+  --primary-color-200: 128, 186, 255;
+  --primary-color-300: 77, 161, 255;
+  --primary-color-400: 26, 137, 255;
+  --primary-color-500: 0, 116, 232;
+  --primary-color-600: 0, 97, 194;
+  --primary-color-700: 0, 79, 157;
+}
+
+html.green {
+  --primary-color-50: 21, 237, 214;
+  --primary-color-100: 190, 219, 168;
+  --primary-color-200: 157, 201, 123;
+  --primary-color-300: 124, 183, 78;
+  --primary-color-400: 91, 165, 33;
+  --primary-color-500: 64, 146, 0;
+  --primary-color-600: 53, 121, 0;
+  --primary-color-700: 41, 95, 0;
+}
+
+html.purple {
+  --primary-color-50: 37, 229, 247;
+  --primary-color-100: 209, 196, 233;
+  --primary-color-200: 181, 163, 219;
+  --primary-color-300: 154, 130, 205;
+  --primary-color-400: 126, 97, 191;
+  --primary-color-500: 99, 64, 177;
+  --primary-color-600: 85, 53, 150;
+  --primary-color-700: 70, 42, 123;
+}
+
+html.yellow {
+  --primary-color-50: 55, 251, 235;
+  --primary-color-100: 255, 247, 203;
+  --primary-color-200: 255, 243, 171;
+  --primary-color-300: 255, 238, 139;
+  --primary-color-400: 255, 234, 107;
+  --primary-color-500: 255, 229, 75;
+  --primary-color-600: 221, 200, 62;
+  --primary-color-700: 187, 171, 49;
+}
+
+html.red {
+  --primary-color-50: 55, 235, 238;
+  --primary-color-100: 255, 205, 210;
+  --primary-color-200: 255, 176, 185;
+  --primary-color-300: 255, 147, 161;
+  --primary-color-400: 255, 117, 136;
+  --primary-color-500: 255, 88, 111;
+  --primary-color-600: 221, 71, 94;
+  --primary-color-700: 187, 54, 76;
+}
+
+html.lightblue {
+  --primary-color-50: 224, 246, 254;
+  --primary-color-100: 178, 233, 255;
+  --primary-color-200: 132, 220, 255;
+  --primary-color-300: 86, 207, 255;
+  --primary-color-400: 40, 194, 255;
+  --primary-color-500: 0, 182, 255;
+  --primary-color-600: 0, 150, 221;
+  --primary-color-700: 0, 118, 187;
+}
+
+html.pink {
+  --primary-color-50: 52, 228, 236;
+  --primary-color-100: 248, 187, 208;
+  --primary-color-200: 244, 145, 181;
+  --primary-color-300: 240, 102, 154;
+  --primary-color-400: 236, 60, 127;
+  --primary-color-500: 232, 17, 100;
+  --primary-color-600: 186, 13, 79;
+  --primary-color-700: 140, 10, 59;
+}
+
+html.teal {
+  --primary-color-50: 24, 242, 241;
+  --primary-color-100: 178, 223, 219;
+  --primary-color-200: 132, 203, 197;
+  --primary-color-300: 86, 184, 175;
+  --primary-color-400: 40, 164, 154;
+  --primary-color-500: 0, 145, 134;
+  --primary-color-600: 0, 116, 107;
+  --primary-color-700: 0, 87, 79;
+}
